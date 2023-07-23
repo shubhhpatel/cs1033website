@@ -1,0 +1,193 @@
+@media only screen and (max-width: 768px) {
+    td a.button {
+        font-size: 110%;
+    }
+
+    body {
+        background-position: 50% 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    td {
+        padding: 5px;
+    }
+}
+
+
+table {
+    margin: 0;
+    width: 100%;
+    max-width: 1000px;
+    table-layout: fixed;
+    padding: 0;
+}
+
+
+tr:nth-child(2) td {
+    font-size: 125%;
+}
+
+td {
+    width: 20%;
+    padding: 0;
+}
+
+td a.button {
+    display: block;
+    padding: 10px 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
+td a.button1,
+td a.button2,
+td a.button3,
+td a.button4,
+td a.button5 {
+    display: block;
+    padding: 10px 0;
+    background-color: #682400;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
+td a.button1:hover {
+    background-image: url('images/b1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    background-color: #682400;
+}
+
+td a.button2:hover {
+    background-image: url('images/b2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    background-color: #682400;
+}
+
+td a.button3:hover {
+    background-image: url('images/b3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    background-color: #682400;
+}
+
+td a.button4:hover {
+    background-image: url('images/b4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    background-color: #682400;
+}
+
+td a.button5:hover {
+    background-image: url('images/b5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    background-color: #682400;
+}
+
+
+h1 {
+    font-size: 2.2rem;
+    color: azure;
+}
+
+h2 {
+    font-size: 1.7rem;
+    color: azure;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: azure;
+}
+
+p {
+    font-size: 1.2rem;
+    color: azure;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 0;
+}
+
+body {
+    font-family: 'Shrikhand', serif;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    max-width: 1000px;
+    background-image: url('images/bg1.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.old2015:hover {
+    content: url('images/2-min.png');
+    max-width: 400px;
+}
+
+.old2016:hover {
+    content: url('images/4-min.png');
+    max-width: 400px;
+}
+
+.old2017:hover {
+    content: url('images/6-min.png');
+    max-width: 400px;
+}
+
+.old2018:hover {
+    content: url('images/8-min.png');
+    max-width: 400px;
+}
+
+.old2019:hover {
+    content: url('images/10-min.png');
+    max-width: 400px;
+}
+
+.old2020:hover {
+    content: url('images/12-min.png');
+    max-width: 400px;
+}
+
+.old2021:hover {
+    content: url('images/14-min.png');
+    max-width: 400px;
+}
+
+.old2022:hover {
+    content: url('images/16-min.png');
+    max-width: 400px;
+}
+
+a {
+    color: #fd9400;
+}
+
+ul {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+    color: azure;
+}
+
+.bold {
+    font-weight: bold;
+}  
